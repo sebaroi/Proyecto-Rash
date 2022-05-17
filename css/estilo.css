@@ -222,6 +222,9 @@ form {
     object-fit: contain;
 }
 
+.marcoProducto img:hover {
+    filter: grayscale(80%);
+}
 
 /* -------------------------cards Productos-------- */
 .card {
