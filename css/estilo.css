@@ -49,6 +49,9 @@ h2 {
     width: auto;
 }
 
+.nav-link dropdown-toggle :hover {
+color: blue;
+}
 
 
 .navbar-light .navbar-nav .nav-link {
@@ -84,13 +87,12 @@ h2 {
 
 /* link redes sociales en el banner */
 .redesSociales img{
-    margin-top: 50px;
+    margin-top: 0px;
     margin-right: 15px;
     padding-left: auto;
     height: 30px;
     width: 30px;
-}
-
+    }
 /* -----------------------------------------termina baner----------------------------------------------------- */
 
 
@@ -110,13 +112,69 @@ h2 {
 
 .row {
     text-align: center;
+    /* color: white; */
 }
 
 .descripcion {
     background-color: rgb(231, 231, 231);
 }
 /* ------------------------------------- pie de pagina ----------------------------------- */
-#footer {
+footer.nb-footer {
+    background: #39393a;
+    border-top: 4px solid #b78c33;
+}
+
+.footer-info-single img {
+    margin-left: 5px;
+}
+
+.footer-info-single ul li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.footer.nb-footer .footer-info-single {
+    margin-top: 5px;
+}
+
+footer.nb-footer .footer-info-single .title {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+footer.nb-footer .footer-info-single ul li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    padding: 2px 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+footer.nb-footer .footer-info-single ul li p {
+    display: block;
+    color: white;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+footer.nb-footer .footer-info-single ul li a:hover {
+    color: #b78c33;
+}
+
+
+footer.nb-footer .d-flex{
+    text-align: center;
+}
+
+.container1 p {
+    color: white;
+}
+/* #footer {
     text-decoration: none;
     list-style-type: none;
     color: #E6E6E6;
@@ -147,7 +205,7 @@ footer a{
 .footerHijo li {
     list-style-type: none;
 
-}
+} */
 
 /* ...........................................formulario de contacto............................*/
 form {
@@ -166,13 +224,13 @@ form {
 } 
 
 /* --------Productos destacados, accesorios y perifericos -------------*/
-.destacadosFlexPadre {
+/* .destacadosFlexPadre {
     display: flex;
     flex-direction: row;
     justify-content:center;
     margin: auto; 
     height: 430px;
-}
+} */
 
 .accesoriosFlexPadre {
     display: flex;
@@ -273,20 +331,6 @@ form {
 
 
 /* ----------------------------las fotos que estan abajo en el index---------------------------- */
-.fotosPlacaAccesoriosMother {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    height: 430px;
-    margin: auto;
-    width: 100%; */
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    margin: 10px;
-    padding: 25px;
-}
-
 
 
 
@@ -338,6 +382,9 @@ form {
         cursor: pointer;
     }  
     
-    /* .contenedorInput {
-        color: rgb(104, 100, 100);
-    } */
+
+
+
+
+
+
