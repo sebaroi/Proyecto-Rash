@@ -187,38 +187,6 @@ footer.nb-footer .d-flex{
 
 }
 
-/* #footer {
-    text-decoration: none;
-    list-style-type: none;
-    color: #E6E6E6;
-    background-color: #39393A;
-    height: 300px;
-    font-weight: bold;
-}
-
-footer a{
-    text-decoration: none;
-    color: #E6E6E6;
-    
-}
-
-.footerPadre {
-    display: flex;
-    background-color: #39393A; 
-    height: 300px;
-    justify-content: center;
-    padding-top: 70px;
-}
-
-
-.footerHijo {
-    margin-right: 50px;
-}
-
-.footerHijo li {
-    list-style-type: none;
-
-} */
 
 
 
@@ -411,4 +379,8 @@ footer a{
 
 .imgTarjeta {
     text-align: center;
+}
+
+.cuadro-text {
+    background-color: white;
 }
