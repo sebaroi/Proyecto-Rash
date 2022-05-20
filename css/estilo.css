@@ -22,19 +22,33 @@ header{
     top: 0;
 }
 
+/* para tratar de cambiar el color */
+/* .color-nav a:hover{
+    color: white;
+
+} */
+.nav-link{
+    color:white!important
+    }
+/* .color-menu a:hover {
+    color: blue !important;
+    cursor: pointer;
+} */
+
+
 /* margen para lo escrito en el index */
 h2 {
     margin-left: 30px;
 }
 
-.padreBannerFlex {
+/* .padreBannerFlex {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     background-color: #39393a;
     margin: auto;
     height: 130px;
-}
+} */
 
 .d-flex {
     text-align: center;
@@ -43,16 +57,11 @@ h2 {
 
 .container-fluid {
     background-color: #39393a;
-
 }
 
 .input-group {
     align-items: flex-end;
     width: auto;
-}
-
-.nav-link dropdown-toggle :hover {
-color: blue;
 }
 
 
@@ -63,23 +72,6 @@ color: blue;
     text-align: center;
     }
 
-/* .navbar-light .navbar-nav .active>.nav-link  {
-    color: blue;
-    }    
-    #navbarDropdown.nav-link.dropdown-toggle{
-        color: white;
-        background-color: #39393A;
-    }
-
-.navbarDropdown{background-color: #4848e0;} */
-
-
-/* .dropdown-menu a:hover {background-color: #4848e0;}
-.nav-item dropdown .dropdown-menu {display: block;}
-.nav-item dropdown .nav-link dropdown-toggle {background-color: #39393a;} */
-
-
-
 
 /* logo de la empresa */
 .rash{
@@ -87,14 +79,7 @@ color: blue;
     margin: 20px;
 }
 
-/* link redes sociales en el banner */
-.redesSociales img{
-    margin-top: 0px;
-    margin-right: 15px;
-    padding-left: auto;
-    height: 30px;
-    width: 30px;
-    }
+
 /* -----------------------------------------termina baner----------------------------------------------------- */
 
 
@@ -122,6 +107,11 @@ color: blue;
 .descripcion {
     background-color: rgb(231, 231, 231);
 }
+
+.container1 p {
+    color: white;
+}
+
 /* ------------------------------------- pie de pagina ----------------------------------- */
 
 
@@ -178,16 +168,19 @@ footer.nb-footer .d-flex{
     text-align: center;
 }
 
-.container1 p {
-    color: white;
-}
 
 .textoFooter {
     text-align: center;
-
 }
 
-
+/* link redes sociales en el footer */
+.redesSociales img{
+    margin-top: 0px;
+    margin-right: 15px;
+    padding-left: auto;
+    height: 30px;
+    width: 30px;
+    }
 
 
 /* Video que esa ubicado en la pagina sillasGamers.html */
@@ -196,21 +189,6 @@ footer.nb-footer .d-flex{
 } 
 
 /* --------Productos destacados, accesorios y perifericos -------------*/
-/* .destacadosFlexPadre {
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    margin: auto; 
-    height: 430px;
-} */
-
-.accesoriosFlexPadre {
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    margin: auto; 
-    height: 430px;
-}
 
 .marcoProducto {
     border: 1px rgb(160, 159, 159) solid;
@@ -382,5 +360,9 @@ footer.nb-footer .d-flex{
 }
 
 .cuadro-text {
+    background-color: white;
+}
+
+.caracteristicaContenedor {
     background-color: white;
 }
