@@ -54,11 +54,22 @@ footer.nb-footer .d-flex{
     text-align: center;
 }
 
+.ContenedorRedesSociales{
+    width: 100%;
+    height: 1rem;
+}
+
 /* link redes sociales en el footer */
-.redesSociales img{
+.redesSociales img {
     margin-top: 0px;
-    margin-right: 15px;
+    //margin-right: 15px;
     padding-left: auto;
     height: 30px;
     width: 30px;
     }
+
+.contenedorLogo {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}

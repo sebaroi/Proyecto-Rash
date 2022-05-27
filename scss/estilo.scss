@@ -75,6 +75,7 @@ body {
     object-fit: contain;
     height: $heightProductoImg;
     width: 100%;
+    
 }
 
 .textoProducto {
@@ -127,10 +128,23 @@ body {
     text-decoration: none;
     font-size: 20px;
     margin: 4px 2px;
-    cursor: pointer;
+    cursor: pointer;  
 }  
 
 .button {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    font-weight: bold;
+    //font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    /*
     border: none;
     color: white;
     padding: 10px 32px;
@@ -141,9 +155,15 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     background-color: #297373;
-    font-weight: bold;
+    font-weight: bold; */
 }
 
+.button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+   // box-shadow: 0 4px 16px #blue (49, 138, 172, 1);
+    transition: all 0.2s ease;
+}
 
 
 
