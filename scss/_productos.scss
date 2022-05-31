@@ -1,0 +1,47 @@
+/* --------Productos destacados, accesorios y perifericos -------------*/
+
+
+.marcoProducto:hover {
+    //box-shadow: 7px 7px 0px 0px #5c5e60, 10px 10px #ffffff;
+    //transform: translate(-3px, -3px);
+     box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+     transform: translateY(-3%);
+ }
+ 
+ .imagenProducto {
+     object-fit: contain;
+     height: $heightProductoImg;
+     width: 100%;
+     
+ }
+ 
+ .textoProducto {
+     height: $heightProductoTexto;
+     display: flex;
+     flex-direction: column;
+     justify-content:flex-end;
+     margin: 0;
+     font-weight: bolder;
+ }
+ 
+ .marcoProducto p{
+     font-weight: bolder;
+     margin: auto;
+     text-align: center;
+ }
+ 
+ .marcoProducto hr {
+     height:3px;
+     border-width:0;
+     background-color:rgb(76, 0, 255);
+     margin-left: 40px;
+     margin-right: 40px;
+ }
+ 
+ .marcoProducto img{
+     object-fit: contain;
+     height: 100%;
+     width: 100%;
+ }
+ 
+ 
