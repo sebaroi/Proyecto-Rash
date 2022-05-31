@@ -1,0 +1,45 @@
+header{
+    z-index:3;
+    height: 150px;
+    position: sticky; 
+    top: 0;
+}
+
+
+.nav-link{
+    color:white!important
+    }
+
+    
+/* margen para lo escrito en el index */
+h2 {
+    margin-left: 30px;
+}
+
+
+.d-flex {
+    text-align: center;
+    margin-top: 0%;
+}
+
+.container-fluid {
+    background-color: $colorHeaderFooter;
+}
+
+.input-group {
+    align-items: flex-end;
+    width: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+    font-weight: bold;
+    text-decoration:none;
+    text-align: center;
+    }
+
+/* logo de la empresa */
+.rash{
+    width: 60px;
+    margin: 20px;
+}

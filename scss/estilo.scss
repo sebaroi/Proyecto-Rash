@@ -1,0 +1,253 @@
+/* Fuentes para la pagina */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import "variables";
+@import "mediasQueries";
+@import "header";
+@import "ubicacion";
+@import "formulario";
+@import "footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+/* --------------------------------------PAGINA PRINCIPAL index-------------------------------------- */
+body {
+    background-color: $colorBody;
+}
+
+
+/* -----------------------------------------termina baner----------------------------------------------------- */
+
+.imagenesCentrales {
+    text-align: center;
+    background-color:$colorHeaderFooter;
+}
+
+/* Boton de whatssap */
+.botonWhatsApp img{
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+} 
+
+.row {
+    text-align: center;
+    font-family: Roboto;
+    width: 100%;
+    /* color: white; */
+}
+
+.descripcion {
+    background-color: rgb(231, 231, 231);
+}
+
+.container1 p {
+    color: white;
+}
+
+
+
+/* Video que esa ubicado en la pagina sillasGamers.html */
+.video{
+    text-align: center;
+} 
+
+/* --------Productos destacados, accesorios y perifericos -------------*/
+
+.marcoProducto {
+    border: 1px rgb(160, 159, 159) solid;
+    border-radius: 15px;
+    width: 100%;
+    height: 430px;
+    box-shadow: 2px 2px 10px rgb(70, 69, 69);
+    /* margin: 30px; */
+    background-color: white;
+    flex-direction: column;
+    justify-content:space-between;
+    cursor: default;
+    transition: all 400ms ease;
+} 
+
+.marcoProducto:hover {
+   //box-shadow: 7px 7px 0px 0px #5c5e60, 10px 10px #ffffff;
+   //transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
+}
+
+.imagenProducto {
+    object-fit: contain;
+    height: $heightProductoImg;
+    width: 100%;
+    
+}
+
+.textoProducto {
+    height: $heightProductoTexto;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.marcoProducto p{
+    font-weight: bolder;
+    margin: auto;
+    text-align: center;
+}
+
+.marcoProducto hr {
+    height:3px;
+    border-width:0;
+    background-color:rgb(76, 0, 255);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.marcoProducto img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+//.marcoProducto img:hover {
+//    filter: grayscale(80%);  
+//}
+
+
+/* -------------------------cards Productos-------- */
+.card {
+    border: 1px rgb(160, 159, 159) solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(70, 69, 69);
+}
+
+
+/* ---------------------------------------boton comprar----------------------------------------- */
+.botonComprar {
+    border: none;
+    color: black;
+    text-align:center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;  
+}  
+
+.button {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    font-weight: bold;
+    //font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    /*
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #297373;
+    font-weight: bold; */
+}
+
+.button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+   // box-shadow: 0 4px 16px #blue (49, 138, 172, 1);
+    transition: all 0.2s ease;
+}
+
+
+
+/*:::Boton-Modal:::*/
+.boton-modal{
+    padding: 40px;
+    background-color: #fff;
+}
+.boton-modal label{
+    padding: 10px 15px;
+    background-color: #5488a3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.boton-modal label:hover{
+    background-color: #185E83;
+}
+/*:::Fin Boton-Modal:::*/
+
+/*:::Ventana Modal:::*/
+#btn-modal{
+    display: none;
+}
+.container-modal{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-modal:checked ~ .container-modal{
+    display: flex;
+}
+.content-modal{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content-modal h2{
+    margin-bottom: 15px;
+}
+.content-modal p{
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.content-modal .btn-cerrar{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.content-modal .btn-cerrar label{
+    padding: 7px 10px;
+    background-color: #5488a3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.content-modal .btn-cerrar label:hover{
+    background-color:#185E83;
+}
+.cerrar-modal{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+}

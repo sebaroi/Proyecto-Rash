@@ -1,263 +1,328 @@
 /* Fuentes para la pagina */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+/* MEDIA QUERIES */
+@media screen and (max-width: 576px) {
+  .marcoProducto {
+    height: fit-content; } }
 
+header {
+  z-index: 3;
+  height: 150px;
+  position: sticky;
+  top: 0; }
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto";
-}
-
-
-/* --------------------------------------PAGINA PRINCIPAL index-------------------------------------- */
-body {
-    background-color: #F5F5F5;
-}
-
-
-header{
-    z-index:3;
-    height: 150px;
-    position: sticky; 
-    top: 0;
-}
-
-
-
-/* para tratar de cambiar el color */
-/* .color-nav a:hover{
-    color: white;
-
-} */
-.nav-link{
-    color:white!important
-    }
-/* .color-menu a:hover {
-    color: blue !important;
-    cursor: pointer;
-} */
-
+.nav-link {
+  color: white !important; }
 
 /* margen para lo escrito en el index */
 h2 {
-    margin-left: 30px;
-}
-
-
+  margin-left: 30px; }
 
 .d-flex {
-    text-align: center;
-    margin-top: 0%;
-}
+  text-align: center;
+  margin-top: 0%; }
 
 .container-fluid {
-    background-color: #39393a;
-}
+  background-color: #39393a; }
 
 .input-group {
-    align-items: flex-end;
-    width: auto;
-}
-
+  align-items: flex-end;
+  width: auto; }
 
 .navbar-light .navbar-nav .nav-link {
-    color:white;
-    font-weight: bold;
-    text-decoration:none;
-    text-align: center;
-    }
-
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center; }
 
 /* logo de la empresa */
-.rash{
-    width: 60px;
-    margin: 20px;
-}
+.rash {
+  width: 60px;
+  margin: 20px; }
 
-/* -----------------------------------------termina baner----------------------------------------------------- */
+/* ---------------------ubicacion------------------- */
+.marcoMapa {
+  border: 1px #a09f9f solid;
+  border-radius: 15px;
+  flex-direction: row;
+  justify-content: center;
+  width: 97%;
+  height: 530px;
+  box-shadow: 2px 2px 10px #464545;
+  /* margin: 30px; */
+  background-color: white;
+  flex-wrap: wrap; }
 
+.google-maps {
+  position: relative;
+  padding-bottom: 100%;
+  height: 0;
+  overflow: hidden;
+  text-align: center;
+  margin-left: auto; }
 
-.imagenesCentrales {
-    text-align: center;
-    background-color:#39393A;
-}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30rem; }
 
-/* Boton de whatssap */
-.botonWhatsApp img{
-    width: 60px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-} 
+#contacto {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px #a09f9f solid;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px #464545;
+  margin: auto;
+  margin-bottom: 2rem;
+  background-color: white; }
 
+.textoContacto {
+  text-align: center; }
 
-.row {
-    text-align: center;
-    font-family: Roboto;
-    /* color: white; */
-}
+#contacto form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50vw;
+  background-color: white;
+  border-radius: 15px; }
 
+.campo {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto; }
 
-.descripcion {
-    background-color: rgb(231, 231, 231);
-}
+.botonContacto {
+  border: none;
+  color: #686464;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer; }
 
-.container1 p {
-    color: white;
-}
+.cont-vm {
+  background-color: white; }
 
-/* ------------------------------------- pie de pagina ----------------------------------- */
+.cont-vm hr {
+  /* color: blue; */
+  height: 3px;
+  /* height: 30%; */
+  color: blue;
+  border-left: 8px solid blue;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-family: Roboto; }
 
+.texto {
+  text-align: center;
+  background-color: white; }
+
+.texto-medio {
+  text-align: center; }
+
+.fondo-blanco {
+  background-color: white; }
+
+.info-horizontal {
+  text-align: left; }
+
+.cuadro {
+  background-color: white; }
+
+.imgTarjeta {
+  text-align: center; }
+
+.cuadro-text {
+  background-color: white; }
+
+.caracteristicaContenedor {
+  background-color: white; }
 
 footer.nb-footer {
-    background: #39393a;
-    border-top: 4px solid #b78c33;
-    text-align: center;
-}
+  background: #39393a;
+  border-top: 4px solid #b78c33;
+  text-align: center; }
 
 .footer-info-single img {
-    margin-left: 5px;
-}
+  margin-left: 5px; }
 
-.footer-info-single ul li{
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-}
+.footer-info-single ul li {
+  text-decoration: none;
+  list-style: none;
+  text-align: center; }
 
 .footer.nb-footer .footer-info-single {
-    margin-top: 5px;
-}
+  margin-top: 5px; }
 
 footer.nb-footer .footer-info-single .title {
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 16px;
-    padding-left: 5px;
-}
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-left: 5px; }
 
 footer.nb-footer .footer-info-single ul li a {
-    display: block;
-    color: white;
-    font-weight: bold;
-    padding: 2px 0;
-    text-decoration: none;
-    list-style: none;
-}
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 2px 0;
+  text-decoration: none;
+  list-style: none; }
 
 footer.nb-footer .footer-info-single ul li p {
-    display: block;
-    color: white;
-    font-weight: bold;
-    padding: 2px 0;
-}
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 2px 0; }
 
 footer.nb-footer .footer-info-single ul li a:hover {
-    color: #b78c33;
-}
+  color: #b78c33; }
 
-
-footer.nb-footer .d-flex{
-    text-align: center;
-}
-
+footer.nb-footer .d-flex {
+  text-align: center; }
 
 .textoFooter {
-    text-align: center;
-}
+  text-align: center; }
+
+.ContenedorRedesSociales {
+  width: 100%;
+  height: 1rem; }
 
 /* link redes sociales en el footer */
-.redesSociales img{
-    margin-top: 0px;
-    margin-right: 15px;
-    padding-left: auto;
-    height: 30px;
-    width: 30px;
-    }
+.redesSociales img {
+  margin-top: 0px;
+  padding-left: auto;
+  height: 30px;
+  width: 30px; }
 
+.contenedorLogo {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto"; }
+
+/* --------------------------------------PAGINA PRINCIPAL index-------------------------------------- */
+body {
+  background-color: #F5F5F5; }
+
+/* -----------------------------------------termina baner----------------------------------------------------- */
+.imagenesCentrales {
+  text-align: center;
+  background-color: #39393a; }
+
+/* Boton de whatssap */
+.botonWhatsApp img {
+  width: 60px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+
+.row {
+  text-align: center;
+  font-family: Roboto;
+  width: 100%;
+  /* color: white; */ }
+
+.descripcion {
+  background-color: #e7e7e7; }
+
+.container1 p {
+  color: white; }
 
 /* Video que esa ubicado en la pagina sillasGamers.html */
-.video{
-    text-align: center;
-} 
+.video {
+  text-align: center; }
 
 /* --------Productos destacados, accesorios y perifericos -------------*/
-
 .marcoProducto {
-    border: 1px rgb(160, 159, 159) solid;
-    border-radius: 15px;
-    width: 100%;
-    height: 430px;
-    box-shadow: 2px 2px 10px rgb(70, 69, 69);
-    /* margin: 30px; */
-    background-color: white;
-    flex-direction: column;
-    justify-content:space-between;
-} 
+  border: 1px #a09f9f solid;
+  border-radius: 15px;
+  width: 100%;
+  height: 430px;
+  box-shadow: 2px 2px 10px #464545;
+  /* margin: 30px; */
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: default;
+  transition: all 400ms ease; }
+
+.marcoProducto:hover {
+  box-shadow: 5px 5px 20px black;
+  transform: translateY(-3%); }
 
 .imagenProducto {
-    object-fit: contain;
-    height: 40%;
-    width: 100%;
-}
+  object-fit: contain;
+  height: 40%;
+  width: 100%; }
 
 .textoProducto {
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-end;
-    margin: 0;
-    font-weight: bolder;
-}
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0;
+  font-weight: bolder; }
 
-.marcoProducto p{
-    font-weight: bolder;
-    margin: auto;
-    text-align: center;
-}
+.marcoProducto p {
+  font-weight: bolder;
+  margin: auto;
+  text-align: center; }
 
 .marcoProducto hr {
-    height:3px;
-    border-width:0;
-    background-color:rgb(76, 0, 255);
-    margin-left: 40px;
-    margin-right: 40px;
-}
+  height: 3px;
+  border-width: 0;
+  background-color: #4c00ff;
+  margin-left: 40px;
+  margin-right: 40px; }
 
-.marcoProducto img{
-    object-fit: contain;
-    height: 100%;
-    width: 100%;
-}
-
-.marcoProducto img:hover {
-    filter: grayscale(80%);  
-}
-
-
+.marcoProducto img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%; }
 
 /* -------------------------cards Productos-------- */
 .card {
-    border: 1px rgb(160, 159, 159) solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(70, 69, 69);
-}
-
-
+  border: 1px #a09f9f solid;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px #464545; }
 
 /* ---------------------------------------boton comprar----------------------------------------- */
 .botonComprar {
-    border: none;
-    color: black;
-    text-align:center;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-}  
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer; }
 
 .button {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0.5em 1.2em;
+  background: #318aac;
+  border: 2px solid;
+  border-color: #318aac;
+  position: relative;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  /*
     border: none;
     color: white;
     padding: 10px 32px;
@@ -268,149 +333,85 @@ footer.nb-footer .d-flex{
     margin: 4px 2px;
     cursor: pointer;
     background-color: #297373;
-    font-weight: bold;
-}
+    font-weight: bold; */ }
 
+.button:hover {
+  color: white;
+  box-shadow: 0 4px 16px #318aac;
+  transition: all 0.2s ease; }
 
+/*:::Boton-Modal:::*/
+.boton-modal {
+  padding: 40px;
+  background-color: #fff; }
 
-/* ----------------------------formulario de contacto---------------------------- */
+.boton-modal label {
+  padding: 10px 15px;
+  background-color: #5488a3;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 300ms ease; }
 
-#contacto {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px rgb(160, 159, 159) solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(70, 69, 69);
-    margin:auto;
-    margin-bottom: 2rem;
-    background-color: white;
-}
+.boton-modal label:hover {
+  background-color: #185E83; }
 
+/*:::Fin Boton-Modal:::*/
+/*:::Ventana Modal:::*/
+#btn-modal {
+  display: none; }
 
-.textoContacto {
-    text-align: center;    
-}
+.container-modal {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(144, 148, 150, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100; }
 
+#btn-modal:checked ~ .container-modal {
+  display: flex; }
 
-#contacto form {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 50vw;
-    background-color: white;
-    border-radius: 15px;
-}
+.content-modal {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px; }
 
+.content-modal h2 {
+  margin-bottom: 15px; }
 
-.campo {
-    display: block;
-    width: 50%;
-    padding: 10px;
-    margin: 10px auto;
-}
+.content-modal p {
+  padding: 15px 0px;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb; }
 
+.content-modal .btn-cerrar {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end; }
 
-.botonContacto {
-    border: none;
-    color: rgb(104, 100, 100);
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
+.content-modal .btn-cerrar label {
+  padding: 7px 10px;
+  background-color: #5488a3;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 300ms ease; }
 
+.content-modal .btn-cerrar label:hover {
+  background-color: #185E83; }
 
-.cont-vm {
-    background-color: white;
-}
-
-.cont-vm hr {
-    /* color: blue; */
-    height:3px;
-    /* height: 30%; */
-    color: blue;
-    border-left: 8px solid blue;
-    width: 50%;
-    text-align: center;
-    margin: auto;
-    font-family: Roboto;
-}
-
-.texto {
-    text-align: center;
-    background-color: white;
-}
-
-.texto-medio {
-    text-align: center;
-}
-
-.fondo-blanco{
-    background-color: white;
-}
-
-.info-horizontal {
-    text-align: left;
-}
-
-.cuadro{
-    background-color: white;
-}
-
-.imgTarjeta {
-    text-align: center;
-}
-
-.cuadro-text {
-    background-color: white;
-}
-
-.caracteristicaContenedor {
-    background-color: white;
-}
-
-
-/* ---------------------ubicacion------------------- */
-.marcoMapa {
-    border: 1px rgb(160, 159, 159) solid;
-    border-radius: 15px;
-    flex-direction: row;
-    justify-content: center;
-    width: 97%;
-    height: 530px;
-    box-shadow: 2px 2px 10px rgb(70, 69, 69);
-    /* margin: 30px; */
-    background-color: white;
-    flex-wrap: wrap;
-}  
-
-.google-maps {
-    position: relative;
-    padding-bottom:100%;
-    height: 0;
-    overflow: hidden;
-    text-align: center;
-    margin-left: auto;
-}
-.google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 30rem;
-}
-
-/* MEDIA QUERIES */
-
-@media screen and (max-width: 576px) {
-    
-    .marcoProducto {
-        height: fit-content;
-    }
-}
-
+.cerrar-modal {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; }

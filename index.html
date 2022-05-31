@@ -16,6 +16,7 @@
 </head>
 
 <!-- ------------------------encabezado-------------------------------------------- --> 
+
 <body>
     <header>   
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -163,7 +164,7 @@
 
 
         <div class="container">
-            <div class="row g-3">
+            <div class="row g-3 w-100">
                 <h2>PRODUCTOS DESTACADOS</h2>
                 <div class="col-lg-3 col-md-4 col-sm-6 ">
                     <div class="marcoProducto">
@@ -177,7 +178,7 @@
                             <p>$44.999-</p>
                             <hr>
                             <div class="botonComprar">
-                                <button class="button">COMPRAR</button>
+                                <button class="button" data-toggle="modal" data-target="#myModal">COMPRAR</button>
                             </div>
                         </div>     
                     </div>
@@ -241,7 +242,7 @@
     <br><br>
 
     <div class="container">
-        <div class="row g-3">
+        <div class="row g-3 w-100">
             <h2>ACCESORIOS Y PERIFERICOS</h2>
             <div class="col-lg-3 col-md-4 col-sm-6">
                 <div class="marcoProducto">
@@ -314,10 +315,10 @@
     <br><br><br><br>
     <h2>TODO LO QUE BUSCAS EN UN SOLO LUGAR</h2>
 
-    <div class="row">
-        <div class="col-lg-4"><a href="#"></a><img src="./imagenes/placas.jpg" class="img-fluid img-thumbnail" alt="Envio"></div>
+    <div class="row w-100">
+        <div class="col-lg-4"><a href="./pages/pcEscrPlacasVideo.html"><img src="./imagenes/placas.jpg" class="img-fluid img-thumbnail" alt="Envio"></a></div>
         <div class="col-lg-4"><a href="#"></a><img src="./imagenes/perifericos.jpg" class="img-fluid img-thumbnail" alt="Retiro"></div>
-        <div class="col-lg-4"><a href="#"></a><img src="./imagenes/mothers1.jpg" class="img-fluid img-thumbnail"></div>
+        <div class="col-lg-4"><a href="./pages/pcEscrMotherboard.html"></a><img src="./imagenes/mothers1.jpg" class="img-fluid img-thumbnail"></a></div>
     </div>
 
 
@@ -330,12 +331,15 @@
 
 <footer class="nb-footer">
     <div class="container">
-        <div class="row">
+        <div class="row w-100">
             <div class="col-md-3 col-sm-6">
                 <div class="footer-info-single" >
                     <ul>
                         <br><br>
-                        <li><a href="./index.html"><img src="./imagenes/logoChico1.png" alt="logo"><a href="./index.html"></a>
+                        <div class="contenedorLogo">
+                            <li><a href="./index.html"><img src="./imagenes/logoChico1.png" alt="logo"></a></li>
+                        </div>  
+                    </ul>              
                 </div>
             </div>
 
@@ -368,6 +372,7 @@
                 <div class="footer-info-single">
                     <br><br>
                     <h2 class="title">SEGUINOS EN NUESTRAS REDES</h2>
+                    <div class="ContenedorRedesSociales">    
                         <div class="redesSociales">
                             <a href="https://www.instagram.com" target="_blank"><img src="./imagenes/instagram.png"
                             alt="logo_instagram"></a>
@@ -376,6 +381,7 @@
                             <a href="https://www.twiter.com" target="_blanck"><img src="./imagenes/twitter-.webp"
                                 alt="Logo_twiter"></a>
                         </div>
+                    </div>    
                 </div>
             </div>
         </div>
