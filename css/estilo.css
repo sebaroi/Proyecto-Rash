@@ -9,13 +9,9 @@
 .lineaFooters {
   color: #b78c33; }
 
-.propiedadDisplay, .displayColor {
-  display: flex;
-  background-color: white; }
-
-.displayColor {
-  text-decoration: none;
-  list-style: none; }
+.anchoAlto {
+  height: 100%;
+  width: 100%; }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 576px) {
@@ -133,10 +129,8 @@ body {
   margin-left: 40px;
   margin-right: 40px; }
 
-.marcoProducto img {
-  object-fit: contain;
-  height: 100%;
-  width: 100%; }
+.anchoAltoMax .marcoProducto img {
+  object-fit: contain; }
 
 /* ---------------------ubicacion------------------- */
 .marcoMapa {
