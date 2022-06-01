@@ -9,17 +9,13 @@
 .lineaFooters {
   color: #b78c33; }
 
-.marcoProducto {
-  background-color: white;
-  height: 430px;
-  width: 100%;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: default;
-  transition: all 400ms ease;
-  border: 1px #a09f9f solid;
-  border-radius: 15px;
-  box-shadow: 2px 2px 10px #464545; }
+.propiedadDisplay, .displayColor {
+  display: flex;
+  background-color: white; }
+
+.displayColor {
+  text-decoration: none;
+  list-style: none; }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 576px) {
@@ -96,6 +92,18 @@ body {
 
 /* -------------------------cards Productos-------- */
 /* --------Productos destacados, accesorios y perifericos -------------*/
+.marcoProducto {
+  background-color: white;
+  height: 430px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: default;
+  transition: all 400ms ease;
+  border: 1px #a09f9f solid;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px #464545; }
+
 .marcoProducto:hover {
   box-shadow: 5px 5px 20px black;
   transform: translateY(-3%); }
@@ -258,19 +266,7 @@ body {
   position: relative;
   font-weight: bold;
   border-radius: 15px;
-  margin-bottom: 1rem;
-  /*
-    border: none;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
-    cursor: pointer;
-    background-color: #297373;
-    font-weight: bold; */ }
+  margin-bottom: 1rem; }
 
 .button:hover {
   color: white;

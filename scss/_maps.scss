@@ -6,19 +6,8 @@ $mapColores:(colorHeaderFooters:#39393a, colorBodys:#F5F5F5, lineaFooters:#b78c3
     }
 }
 
-$estilo:(color: white,tamFuente:20px,alturaCard:430px,);
+$estilo:(color: white,tamFuente:20px,alturaCard:430px);
 
-.marcoProducto {
-    background-color: map-get($estilo,color);
-    font-size: map-get($estilo, tamfuente);
-    height: map-get($estilo,alturaCard);
-    width: 100%;
-    flex-direction: column;
-    justify-content:space-between;
-    cursor: default;
-    transition: all 400ms ease;
-    border: 1px rgb(160, 159, 159) solid;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgb(70, 69, 69);
-}
+//el cuerpo se encuentra en _productos
+
 
