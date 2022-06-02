@@ -10,10 +10,10 @@ $estilo:(color: white,tamFuente:20px,alturaCard:430px,);
 
 
 
-@mixin parrafo ($fuente, $margen, $texto) {
+@mixin parrafo ($fuente, $margen, $textoCentrado) {
     font-weight: $fuente;
     margin: $margen;
-    text-align: $texto;
+    text-align: $textoCentrado;
 }
 
 //este en _producto .marcoProducto p

@@ -1,0 +1,8 @@
+Hola gabi, te escribo por aca y despues lo saco del proyecto.
+
+despeje estilo.scss para que solo esten los vinculos
+Separe cada item con su .scss
+agregue las keywords en todas las paginas
+agregue la descripcion en todas las paginas
+le puse un border a las imagenes que cuando las achicaba mucho se salia un poquito del marco y me molestaba
+No encontre donde aplcar el extend, no le encontre sentido hacerlo por una sola variable porque le quieta el sentido de para que se usa.
