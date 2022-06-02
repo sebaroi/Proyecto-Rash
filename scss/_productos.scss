@@ -1,6 +1,5 @@
 /* --------Productos destacados, accesorios y perifericos -------------*/
 
-
 .marcoProducto {
     background-color: map-get($estilo,color);
     font-size: map-get($estilo, tamfuente);
@@ -14,7 +13,6 @@
     border-radius: 15px;
     box-shadow: 2px 2px 10px rgb(70, 69, 69);
 }
-
 
 .marcoProducto:hover {
     //box-shadow: 7px 7px 0px 0px #5c5e60, 10px 10px #ffffff;
@@ -40,9 +38,8 @@
  }
  
  .marcoProducto p{
-     font-weight: bolder;
-     margin: auto;
-     text-align: center;
+     @include parrafo (bolder,auto,center);
+
  }
  
  .marcoProducto hr {
@@ -53,8 +50,11 @@
      margin-right: 40px;
  }
  
- .anchoAltoMax .marcoProducto img{
+ .marcoProducto img{
      object-fit: contain;
-
+     height: 100%;
+     width: 100%;
+     border-radius: 20px;
  }
+ 
  

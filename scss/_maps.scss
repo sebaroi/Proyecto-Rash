@@ -6,8 +6,14 @@ $mapColores:(colorHeaderFooters:#39393a, colorBodys:#F5F5F5, lineaFooters:#b78c3
     }
 }
 
-$estilo:(color: white,tamFuente:20px,alturaCard:430px);
-
-//el cuerpo se encuentra en _productos
+$estilo:(color: white,tamFuente:20px,alturaCard:430px,);
 
 
+
+@mixin parrafo ($fuente, $margen, $texto) {
+    font-weight: $fuente;
+    margin: $margen;
+    text-align: $texto;
+}
+
+//este en _producto .marcoProducto p
