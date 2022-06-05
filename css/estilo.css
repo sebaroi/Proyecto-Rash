@@ -51,7 +51,8 @@ header {
   font-family: "Roboto"; }
 
 body {
-  background-color: #F5F5F5; }
+  background-color: #F5F5F5;
+  font-family: roboto; }
 
 h2 {
   font-family: roboto;
@@ -79,6 +80,41 @@ h2 {
 
 .container1 p {
   color: white; }
+
+.articulos {
+  display: block;
+  margin: auto; }
+
+.secciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start; }
+
+.marca-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 23%;
+  max-width: 150px; }
+
+.marca-main div:hover {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 5px 5px 20px black;
+  transform: translateY(-3%); }
+
+.marca-main img {
+  width: 100%;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  object-fit: contain; }
+
+.text {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background: #098; }
 
 /* --------Productos destacados, accesorios y perifericos -------------*/
 .marcoProducto {
