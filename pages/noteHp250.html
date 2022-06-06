@@ -1,164 +1,220 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Venta de hardware">
-        <meta name="keywords" content="COMPUTACION, MOTHER, PC, NOTEBOOK, MONITOR, GAMER">
-        <title>Notebook HP</title>
-        <!-- --para boostrap-- -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Venta de hardware">
+    <meta name="keywords" content="COMPUTACION, MOTHER, PC, NOTEBOOK, MONITOR, GAMER">
+    <title>Notebook HP</title>
+    <!-- --para boostrap-- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/estilo.css">
-        <!-- para poner iconos -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!-- para poner iconos -->
     <script src="https://kit.fontawesome.com/5e96413f29.js" crossorigin="anonymous"></script>
-    </head>
+</head>
 
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/"><img src="/imagenes/logoChico1.png" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                            PC DE ESCRITORIO
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item fw-bold " href="pages/pcEscritorio.html">PC DE ESCRITORIO</a>
-                            </li>
-                            <li><a class="dropdown-item fw-bold" href="pages/pcEscrCombosActualizacion.html">COMBOS
-                                ACTUALIZACION</a></li>
-                            <li><a class="dropdown-item fw-bold" href="pages/pcEscrMemoriaRam.html">MEMORIA RAM</a></li>
-                            <li><a class="dropdown-item fw-bold" href="pages/pcEscrPlacasVideo.html">PLACAS DE VIDEO</a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
-                            NOTEBOOKS
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item fw-bold" href="pages/laptos.html">NOTEBOOKS</a></li>
-                            <li><a class="dropdown-item fw-bold" href="pages/laptos.html">LENOVO</a></li>
-                            <li><a class="dropdown-item fw-bold" href="pages/laptos.html">ASUS</a></li>
-                            <li><a class="dropdown-item fw-bold" href="pages/laptos.html">HP</a></li>
-                            <li><a class="dropdown-item fw-bold" href="pages/laptos.html">DELL</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
-                            MONITORES
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item fw-bold" href="/pages/monitores.html">MONITORES</a></li>
-                            <li><a class="dropdown-item fw-bold" href="/pages/monitores.html">SAMSUNG</a></li>
-                            <li><a class="dropdown-item fw-bold" href="/pages/monitores.html">LG</a></li>
-                            <li><a class="dropdown-item fw-bold" href="/pages/monitores.html">SONY</a></li>
-                            <li><a class="dropdown-item fw-bold" href="/pages/monitores.html">VIEWSONIC</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
-                            SILLAS GAMERS
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item fw-bold" href="../pages/sillasGamers.html">SILLAS GAMERS</a></li>
-                            <li><a class="dropdown-item fw-bold" href="../pages/sillasGamers.html">PREMIUM</a></li>
-                            <li><a class="dropdown-item fw-bold" href="../pages/sillasGamers.html">STANDAR</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="input-group ps-5">
-                    <div id="navbar-search-autocomplete" class="form-outline">
-                        <input type="search" id="form1" class="form-control" />
-                        <!-- <label class="form-label" for="form1">Search</label> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="/imagenes/logoChico1.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PC DE ESCRITORIO
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item fw-bold " href="pages/pcEscritorio.html">PC DE
+                                        ESCRITORIO</a>
+                                </li>
+                                <li><a class="dropdown-item fw-bold" href="pages/pcEscrCombosActualizacion.html">COMBOS
+                                        ACTUALIZACION</a></li>
+                                <li><a class="dropdown-item fw-bold" href="pages/pcEscrMemoriaRam.html">MEMORIA RAM</a>
+                                </li>
+                                <li><a class="dropdown-item fw-bold" href="pages/pcEscrPlacasVideo.html">PLACAS DE
+                                        VIDEO</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                NOTEBOOKS
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item fw-bold" href="pages/laptos.html">NOTEBOOKS</a></li>
+                                <li><a class="dropdown-item fw-bold" href="pages/laptos.html">LENOVO</a></li>
+                                <li><a class="dropdown-item fw-bold" href="pages/laptos.html">ASUS</a></li>
+                                <li><a class="dropdown-item fw-bold" href="pages/laptos.html">HP</a></li>
+                                <li><a class="dropdown-item fw-bold" href="pages/laptos.html">DELL</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                MONITORES
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item fw-bold" href="/pages/monitores.html">MONITORES</a></li>
+                                <li><a class="dropdown-item fw-bold" href="/pages/monitores.html">SAMSUNG</a></li>
+                                <li><a class="dropdown-item fw-bold" href="/pages/monitores.html">LG</a></li>
+                                <li><a class="dropdown-item fw-bold" href="/pages/monitores.html">SONY</a></li>
+                                <li><a class="dropdown-item fw-bold" href="/pages/monitores.html">VIEWSONIC</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                SILLAS GAMERS
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item fw-bold" href="../pages/sillasGamers.html">SILLAS GAMERS</a>
+                                </li>
+                                <li><a class="dropdown-item fw-bold" href="../pages/sillasGamers.html">PREMIUM</a></li>
+                                <li><a class="dropdown-item fw-bold" href="../pages/sillasGamers.html">STANDAR</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="input-group ps-5">
+                        <div id="navbar-search-autocomplete" class="form-outline">
+                            <input type="search" id="form1" class="form-control" />
+                            <!-- <label class="form-label" for="form1">Search</label> -->
+                        </div>
+                        <button type="button" class="btn btn-primary">
+                            <i class="fas fa-search"></i>
+                        </button>
                     </div>
-                    <button type="button" class="btn btn-primary">
-                        <i class="fas fa-search"></i>
-                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="conteiner fondo">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="marcoDetalleProducto">
+                    <img class="zoom" src="../imagenes/hp1.webp" alt="notebook">
+                </div>
+            </div>
+            <div class="col-sm-7">
+                <div class="detalleProducto">
+                    <h1 fw-bold>Notebook HP ProBook 250 G7 negra 15.6", Intel Core i7 8700G1 4GB de RAM 480GB SDD</h1>
+                    <br>
+                    <h2 class="card-title" fw-bold> $99.999- </h2>
+                    <br>
+                    <div class="botonComprar">
+                        <button class="button">COMPRAR</button>
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+
+                    <div class="descripcionInferior">
+                        <div class="col-md-12 retiro">
+                            <i class="fa-solid fa-location-dot"></i>Retiro en nuestro Local
+
+                        </div>
+
+                        <div class="col-md-12 envio">
+                            <i class="fa-solid fa-truck"></i> Envios a todo el pais.</i>
+                        </div>
+
+                        <div class="col-md-12 cuotas">
+                            <i class="fa-solid fa-credit-card"></i>Hasta 12 cuotas sin interes</i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-</header>
+    </div>
 
-<main class="container">
-   
-    <div class="container-fluid caracteristicaContenedor">
+    <div class="conteiner fondo">
         <div class="row">
-            <div class="col-sm-7"><img src="../imagenes/hp1.webp" alt="notebook">
-            <img src="" alt=""> 
-        </div>
-
-        <div class="col-sm-5">
-            <h1 fw-bold>Notebook HP ProBook 250 G7 negra 15.6", Intel Core i7 8700G1 4GB de RAM 480GB SDD</h1>
-            <h2 class="card-title" fw-bold> $99.999.99- </h2>
-            <div class="botonComprar">
-                <button class="button">COMPRAR</button>
-                <i class="fa-solid fa-cart-plus"></i>
+            <div class="col-md-12">
+                <div class="descripcion">
+                    <h2>ESPECIFICACIONES TECNICAS</h2>
+                </div>
+                <div class="caracteristicas">
+                    <ul>
+                        <li>Procesador Intel Core i5.</li>
+                        <li>Memoria RAM de 4GB.</li>
+                        <li>Memoria RAM de 4GB.</li>
+                        <li>Pantalla LED de 15.6".</li>
+                        <li>Resolución de 1366x768 px.</li>
+                        <li>Es antirreflejo.</li>
+                        <li>Placa de video Intel UHD Graphics G1 (Ice Lake 32 EU).</li>
+                        <li>Conexión wifi y bluetooth.</li>
+                        <li>Cuenta con 3 puertos USB y puerto HDMI.</li>
+                        <li>Incluye lector de tarjeta de memoria.</li>
+                        <li> Posee pad numérico.</li>
+                        <li>Modo de sonido Stereo.</li>
+                    </ul>
+                    <h2>Descripcion</h2>
+                    <p>HP, líder mundial en PC, te ayuda a equiparte con una notebook completamente funcional, lista
+                        para adaptarse a tus necesidades. La 250 G7 se caracteriza por su diseño delgado, ultraligero y
+                        su carcaza resistente que la protege diariamente y hace que puedas usarla en donde quieras.
+                        Pantalla con gran impacto visual.
+                        Su pantalla LED de 15.6" y 1366x768 px de resolución te brindará colores más vivos y definidos.
+                        Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición.
+                        Eficiencia a tu alcance.
+                        Su procesador Intel Core i5 de 4 núcleos, está pensado para aquellas personas generadoras y
+                        consumidoras de contenidos. Con esta unidad central, la máquina llevará a cabo varios procesos
+                        de forma simultánea, desde edición de videos hasta retoques fotográficos con programas
+                        profesionales.
+                        Su placa de video Intel UHD Graphics G1 (Ice Lake 32 EU) convierte a este dispositivo en una
+                        gran herramienta de trabajo para cualquier profesional del diseño. Te permitirá lograr una gran
+                        performance en todos tus juegos y en otras tareas cotidianas que impliquen procesamiento
+                        gráfico.
+                        Batería de larga duración. </p>
+                </div>
             </div>
         </div>
-        </div>  
+    </div>
+    </div>
     </div>
 
 
-    <div class="descripcion">
-        <h2>ESPECIFICACIONES TECNICAS</h2>
-        <ul>
-            <li>HP, líder mundial en PC, te ayuda a equiparte con una notebook completamente funcional, lista para adaptarse a tus necesidades. La 250 G7 se caracteriza por su diseño delgado, ultraligero y su carcaza resistente que la protege diariamente y hace que puedas usarla en donde quieras.</li>
-            <li>Pantalla con gran impacto visual.</li>
-            <li>Su pantalla LED de 15.6" y 1366x768 px de resolución te brindará colores más vivos y definidos. Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición.</li>
-            <li>Eficiencia a tu alcance.</li>
-            <li>Su procesador Intel Core i5 de 4 núcleos, está pensado para aquellas personas generadoras y consumidoras de contenidos. Con esta unidad central, la máquina llevará a cabo varios procesos de forma simultánea, desde edición de videos hasta retoques fotográficos con programas profesionales.</li>   
-            <li>Su placa de video Intel UHD Graphics G1 (Ice Lake 32 EU) convierte a este dispositivo en una gran herramienta de trabajo para cualquier profesional del diseño. Te permitirá lograr una gran performance en todos tus juegos y en otras tareas cotidianas que impliquen procesamiento gráfico.</li>
-            <li>Batería de larga duración.</li>
-        </ul>
 
-        </div>
-    </main>
-    
     <div class="botonWhatsApp">
-        <a href="https://api.whatsapp.com/send?phone=+541163616333" target="_blank"><img src="../imagenes/logoWhatsapp.png"
-        alt="Link a WhatsApp"></a>
+        <a href="https://api.whatsapp.com/send?phone=+541163616333" target="_blank"><img
+                src="../imagenes/logoWhatsapp.png" alt="Link a WhatsApp"></a>
     </div>
-    
+
 
     <footer class="nb-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <div class="footer-info-single" >
+                    <div class="footer-info-single">
                         <ul>
                             <br><br>
                             <div class="contenedorLogo">
                                 <li><a href="../index.html"><img src="../imagenes/logoChico1.png" alt="logo"></a></li>
-                            </div>  
-                        </ul>              
+                            </div>
+                        </ul>
                     </div>
                 </div>
-    
+
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-info-single">
                         <br><br>
@@ -171,7 +227,7 @@
                         </ul>
                     </div>
                 </div>
-    
+
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-info-single">
                         <br><br>
@@ -183,19 +239,19 @@
                         </ul>
                     </div>
                 </div>
-    
+
                 <div class="col-md-3 col-sm-6">
                     <div class="footer-info-single">
                         <br><br>
                         <h2 class="title">SEGUINOS EN NUESTRAS REDES</h2>
-                            <div class="redesSociales">
-                                <a href="https://www.instagram.com" target="_blank"><img src="../imagenes/instagram.png"
-                                alt="logo_instagram"></a>
-                                <a href="https://www.facebook.com" target="_blanck"><img src="../imagenes/facebook.png"
-                                alt="Logo_facebook"></a>
-                                <a href="https://www.twiter.com" target="_blanck"><img src="../imagenes/twitter-.webp"
+                        <div class="redesSociales">
+                            <a href="https://www.instagram.com" target="_blank"><img src="../imagenes/instagram.png"
+                                    alt="logo_instagram"></a>
+                            <a href="https://www.facebook.com" target="_blanck"><img src="../imagenes/facebook.png"
+                                    alt="Logo_facebook"></a>
+                            <a href="https://www.twiter.com" target="_blanck"><img src="../imagenes/twitter-.webp"
                                     alt="Logo_twiter"></a>
-                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -214,9 +270,12 @@
                 <div class="col-md-3 col-sm-3"></div>
             </div>
         </div>
-    
-    <br><br><br>
+
+        <br><br><br>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

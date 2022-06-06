@@ -51,10 +51,13 @@ header {
   font-family: "Roboto"; }
 
 body {
-  background-color: #F5F5F5;
-  font-family: roboto; }
+  background-color: #F5F5F5; }
 
 h2 {
+  font-family: roboto;
+  font-weight: bold; }
+
+h1 {
   font-family: roboto;
   font-weight: bold; }
 
@@ -74,9 +77,6 @@ h2 {
   font-family: Roboto;
   width: 100%;
   /* color: white; */ }
-
-.descripcion {
-  background-color: #e7e7e7; }
 
 .container1 p {
   color: white; }
@@ -110,11 +110,9 @@ h2 {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   object-fit: contain; }
 
-.text {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  background: #098; }
+.caracteristicas ul {
+  text-decoration: none;
+  list-style-type: none; }
 
 /* --------Productos destacados, accesorios y perifericos -------------*/
 .marcoProducto {
@@ -163,6 +161,52 @@ h2 {
   height: 100%;
   width: 100%;
   border-radius: 20px; }
+
+.marcoDetalleProducto {
+  height: 400px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: default;
+  margin-top: 20px; }
+
+.marcoDetalleProducto img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%; }
+
+.fondo {
+  background-color: white; }
+
+.detalleProducto {
+  text-align: center;
+  font-weight: bold;
+  height: 400px;
+  width: 100%;
+  font-family: roboto; }
+
+.descripcionInferior {
+  text-align: left; }
+
+.retiro {
+  color: #5e5e6a;
+  font-family: roboto; }
+
+.envio {
+  color: #5e5e6a; }
+
+.cuotas {
+  color: #5e5e6a; }
+
+.zoom {
+  transition: transform .2s; }
+
+.zoom:hover {
+  transform: scale(1.1);
+  transition: all 400ms ease; }
+
+.card-title {
+  font-weight: bold; }
 
 /* ---------------------ubicacion------------------- */
 .marcoMapa {

@@ -7,7 +7,6 @@
 
 body {
     background-color: $colorBody;
-    font-family: roboto;
 }
 
 
@@ -16,6 +15,8 @@ h2{
     font-weight: bold;    
 }
 
+h1 {font-family: roboto;
+    font-weight: bold;   }
 
 
 .imagenesCentrales {
@@ -38,9 +39,9 @@ h2{
     /* color: white; */
 }
 
-.descripcion {
-    background-color: rgb(231, 231, 231);
-}
+//.descripcion {
+//    background-color: rgb(231, 231, 231);
+//}
 
 .container1 p {
     color: white;
@@ -48,6 +49,7 @@ h2{
 
 
 
+//-----------------------------------------------------------------------
 .articulos{
     display: block;
     margin:auto
@@ -80,10 +82,7 @@ h2{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     object-fit: contain;
 }
-
-.text {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    background: #098;
+.caracteristicas ul {
+    text-decoration: none;
+    list-style-type: none;
 }
