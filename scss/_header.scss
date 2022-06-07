@@ -6,35 +6,31 @@ header{
 }
 
 
-.nav-link{
-    color:white!important
+.container-fluid {
+    .rash{
+        width: 60px;
+        margin: 20px;
     }
-
-    
+    .input-group {
+        align-items: flex-end;
+        width: auto;
+    }
+    background-color: $colorHeaderFooter;
+    .navbar-light .navbar-nav .nav-link {
+        color:white;
+        font-weight: bold;
+        text-decoration:none;
+        text-align: center;
+        }
+        .nav-link{
+            color:white!important
+            }    
+}
 
 .d-flex {
     text-align: center;
     margin-top: 0%;
 }
 
-.container-fluid {
-    background-color: $colorHeaderFooter;
-}
 
-.input-group {
-    align-items: flex-end;
-    width: auto;
-}
 
-.navbar-light .navbar-nav .nav-link {
-    color:white;
-    font-weight: bold;
-    text-decoration:none;
-    text-align: center;
-    }
-
-/* logo de la empresa */
-.rash{
-    width: 60px;
-    margin: 20px;
-}

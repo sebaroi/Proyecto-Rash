@@ -20,30 +20,25 @@ header {
   position: sticky;
   top: 0; }
 
-.nav-link {
-  color: white !important; }
+.container-fluid {
+  background-color: #39393a; }
+  .container-fluid .rash {
+    width: 60px;
+    margin: 20px; }
+  .container-fluid .input-group {
+    align-items: flex-end;
+    width: auto; }
+  .container-fluid .navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center; }
+  .container-fluid .nav-link {
+    color: white !important; }
 
 .d-flex {
   text-align: center;
   margin-top: 0%; }
-
-.container-fluid {
-  background-color: #39393a; }
-
-.input-group {
-  align-items: flex-end;
-  width: auto; }
-
-.navbar-light .navbar-nav .nav-link {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: center; }
-
-/* logo de la empresa */
-.rash {
-  width: 60px;
-  margin: 20px; }
 
 * {
   margin: 0;
@@ -53,11 +48,7 @@ header {
 body {
   background-color: #F5F5F5; }
 
-h2 {
-  font-family: roboto;
-  font-weight: bold; }
-
-h1 {
+h2, h1 {
   font-family: roboto;
   font-weight: bold; }
 
@@ -75,8 +66,7 @@ h1 {
 .row {
   text-align: center;
   font-family: Roboto;
-  width: 100%;
-  /* color: white; */ }
+  width: 100%; }
 
 .container1 p {
   color: white; }
@@ -96,22 +86,19 @@ h1 {
   flex-wrap: wrap;
   width: 23%;
   max-width: 150px; }
-
-.marca-main div:hover {
-  width: 100%;
-  border-radius: 50%;
-  box-shadow: 5px 5px 20px black;
-  transform: translateY(-3%); }
-
-.marca-main img {
-  width: 100%;
-  border-radius: 50%;
-  background-color: white;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  object-fit: contain; }
+  .marca-main div:hover {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px black;
+    transform: translateY(-3%); }
+  .marca-main img {
+    width: 100%;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-fit: contain; }
 
 .caracteristicas ul {
-  text-decoration: none;
   list-style-type: none; }
 
 /* --------Productos destacados, accesorios y perifericos -------------*/
@@ -228,13 +215,12 @@ h1 {
   overflow: hidden;
   text-align: center;
   margin-left: auto; }
-
-.google-maps iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 30rem; }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30rem; }
 
 #contacto {
   margin-top: 50px;
@@ -249,17 +235,13 @@ h1 {
   margin: auto;
   margin-bottom: 2rem;
   background-color: white; }
-
-.textoContacto {
-  text-align: center; }
-
-#contacto form {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 50vw;
-  background-color: white;
-  border-radius: 15px; }
+  #contacto form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+    background-color: white;
+    border-radius: 15px; }
 
 .campo {
   display: block;
@@ -278,17 +260,17 @@ h1 {
 
 .cont-vm {
   background-color: white; }
+  .cont-vm hr {
+    height: 3px;
+    color: blue;
+    border-left: 8px solid blue;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-family: Roboto; }
 
-.cont-vm hr {
-  /* color: blue; */
-  height: 3px;
-  /* height: 30%; */
-  color: blue;
-  border-left: 8px solid blue;
-  width: 50%;
-  text-align: center;
-  margin: auto;
-  font-family: Roboto; }
+.textoContacto {
+  text-align: center; }
 
 .texto {
   text-align: center;
@@ -310,10 +292,7 @@ h1 {
 .imgTarjeta {
   text-align: center; }
 
-.cuadro-text {
-  background-color: white; }
-
-.caracteristicaContenedor {
+.cuadro-text, .caracteristicaContenedor {
   background-color: white; }
 
 /* ---------------------------------------boton comprar----------------------------------------- */

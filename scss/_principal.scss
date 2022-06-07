@@ -2,87 +2,76 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto";
-}
-
-
+  }
+  
 body {
     background-color: $colorBody;
 }
-
-
-h2{
+  
+h2, h1 {
     font-family: roboto;
-    font-weight: bold;    
-}
-
-h1 {font-family: roboto;
-    font-weight: bold;   }
-
-
+    font-weight: bold;
+  }
+  
 .imagenesCentrales {
     text-align: center;
-    background-color:$colorHeaderFooter;
+    background-color: $colorHeaderFooter;
 }
-
-/* Boton de whatssap */
-.botonWhatsApp img{
+  
+  /* Boton de whatssap */
+.botonWhatsApp img {
     width: 60px;
     position: fixed;
     bottom: 10px;
     right: 10px;
-} 
-
+}
+  
 .row {
     text-align: center;
     font-family: Roboto;
     width: 100%;
-    /* color: white; */
 }
-
-//.descripcion {
-//    background-color: rgb(231, 231, 231);
-//}
-
+  
 .container1 p {
     color: white;
 }
-
-
-
-//-----------------------------------------------------------------------
-.articulos{
+  
+  //-----------------------------------------------------------------------
+  
+.articulos {
     display: block;
-    margin:auto
+    margin: auto;
 }
-
-.secciones{
-    display:flex;
+  
+.secciones {
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: flex-start;
 }
-.marca-main{ 
+  
+.marca-main {
     display: flex;
     flex-wrap: wrap;
     width: 23%;
     max-width: 150px;
-    
-}
-.marca-main div:hover{
-    width:100%;
-    border-radius: 50%;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
-    transform: translateY(-3%);
-}
-
-.marca-main img{
-    width:100%;
-    border-radius: 50%;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    object-fit: contain;
-}
-.caracteristicas ul {
-    text-decoration: none;
+  
+    div:hover {
+        width: 100%;
+        border-radius: 50%;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+        transform: translateY(-3%);
+    }
+  
+    img {
+        width: 100%;
+        border-radius: 50%;
+        background-color: white;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        object-fit: contain;
+    }
+  }
+  
+  .caracteristicas ul {
     list-style-type: none;
-}
+  }
