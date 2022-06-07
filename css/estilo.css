@@ -40,6 +40,9 @@ header {
   text-align: center;
   margin-top: 0%; }
 
+.navbar {
+  background-color: #39393a; }
+
 * {
   margin: 0;
   padding: 0;
@@ -113,10 +116,24 @@ h2, h1 {
   border: 1px #a09f9f solid;
   border-radius: 15px;
   box-shadow: 2px 2px 10px #464545; }
-
-.marcoProducto:hover {
-  box-shadow: 5px 5px 20px black;
-  transform: translateY(-3%); }
+  .marcoProducto p {
+    font-weight: bolder;
+    margin: auto;
+    text-align: center; }
+  .marcoProducto hr {
+    height: 3px;
+    border-width: 0;
+    background-color: #4c00ff;
+    margin-left: 40px;
+    margin-right: 40px; }
+  .marcoProducto img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px; }
+  .marcoProducto:hover {
+    box-shadow: 5px 5px 20px black;
+    transform: translateY(-3%); }
 
 .imagenProducto {
   object-fit: contain;
@@ -131,24 +148,6 @@ h2, h1 {
   margin: 0;
   font-weight: bolder; }
 
-.marcoProducto p {
-  font-weight: bolder;
-  margin: auto;
-  text-align: center; }
-
-.marcoProducto hr {
-  height: 3px;
-  border-width: 0;
-  background-color: #4c00ff;
-  margin-left: 40px;
-  margin-right: 40px; }
-
-.marcoProducto img {
-  object-fit: contain;
-  height: 100%;
-  width: 100%;
-  border-radius: 20px; }
-
 .marcoDetalleProducto {
   height: 400px;
   width: 100%;
@@ -156,11 +155,10 @@ h2, h1 {
   justify-content: space-between;
   cursor: default;
   margin-top: 20px; }
-
-.marcoDetalleProducto img {
-  object-fit: contain;
-  height: 100%;
-  width: 100%; }
+  .marcoDetalleProducto img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%; }
 
 .fondo {
   background-color: white; }
@@ -187,34 +185,22 @@ h2, h1 {
 
 .zoom {
   transition: transform .2s; }
-
-.zoom:hover {
-  transform: scale(1.1);
-  transition: all 400ms ease; }
+  .zoom:hover {
+    transform: scale(1.1);
+    transition: all 400ms ease; }
 
 .card-title {
   font-weight: bold; }
 
 /* ---------------------ubicacion------------------- */
-.marcoMapa {
-  border: 1px #a09f9f solid;
-  border-radius: 15px;
-  flex-direction: row;
-  justify-content: center;
-  width: 97%;
-  height: 530px;
-  box-shadow: 2px 2px 10px #464545;
-  /* margin: 30px; */
-  background-color: white;
-  flex-wrap: wrap; }
-
 .google-maps {
   position: relative;
-  padding-bottom: 100%;
+  padding-bottom: 50%;
   height: 0;
   overflow: hidden;
   text-align: center;
-  margin-left: auto; }
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #464545; }
   .google-maps iframe {
     position: absolute;
     top: 0;
