@@ -71,8 +71,6 @@ footer.nb-footer {
   
   .redesSociales img {
     margin-top: 0px;
-  
-    //margin-right: 15px;
     padding-left: auto;
     height: 30px;
     width: 30px;
@@ -82,5 +80,12 @@ footer.nb-footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
   }
+
+  .margenFooter {
+    margin-bottom: 70px;
+    background-color: $colorHeaderFooter;
+  }    
+
 //-----------------------------------------------------------
